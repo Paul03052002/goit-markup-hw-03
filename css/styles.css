@@ -13,7 +13,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-  
+  width: 1158px;
 }
 .nav{
         
@@ -73,7 +73,7 @@ letter-spacing: 0.02em;
 .address:focus{
     color: #404bbf;
 }
-.hidden{
+.visually-hidden{
     display: none;
 }
 .char{
