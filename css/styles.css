@@ -149,6 +149,7 @@ width: 1158px;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 
 }
 .table-name{
@@ -171,7 +172,10 @@ background-color:#FFFFFF;
 a {
     text-decoration: none;
 }
-
+.the-photos{
+    display: flex;
+    gap: 24px;
+}
 ul {
     list-style: none;
 }
