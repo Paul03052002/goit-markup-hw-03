@@ -6,11 +6,12 @@ body {
 .all-containers{
     width: 1158px;
 }
+.page-header{
+      border-bottom: 1px solid #e7e9fc;  
+}
 .container{
-    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    border-bottom: 1px solid #e7e9fc;
     margin: 0 auto;
   
 }
