@@ -81,6 +81,15 @@ letter-spacing: 0.02em;
 }
 .first-list-photos{
     margin: 2px;
+    
+}
+.first-list-photos:first-child{
+    width: calc(100% - 3 * 24px);
+    border-radius: 0px 0px 4px 4px;
+}
+.name-job{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .second-list-photos{
     margin: 2px;
@@ -159,6 +168,8 @@ width: 1158px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .table-subname{
@@ -168,6 +179,7 @@ background-color:#FFFFFF;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 a {
     text-decoration: none;
