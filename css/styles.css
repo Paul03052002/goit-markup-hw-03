@@ -3,17 +3,21 @@ body {
    color: #434455;
    background-color: #FFFFFF;
 }
-.container{
+.all-containers{
     width: 1158px;
 }
-.header{
-    width: 1140px;
-    padding-left: 150px;
-    padding-right: 150px;
-    border-bottom: 1px solid #E7E9FC;
+.container{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0;
+}
+.nav{
+    
 }
 .header-links{
 margin-right: 24px;  
@@ -34,6 +38,7 @@ margin-right: 24px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .webstudio{
     color: #2e2f42;
