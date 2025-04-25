@@ -36,15 +36,15 @@ margin-right: 24px;
     justify-content: flex-start;
     gap: 40px;
 }
-.links-address{
+.contacts-list{
     display: flex;
-     gap: 40px;    
+   
      
 }
-.contact-item{
+.contacts-item{
  margin-right: 40px;
 }
-.contact-item:last-child{
+.contacts-item:last-child{
     margin-right: 0;
 }
 .link{
