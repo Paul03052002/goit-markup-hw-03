@@ -33,10 +33,10 @@ body {
     justify-content: flex-start;
     gap: 40px;
 }
-.contacts-list{
-    display: flex;   
+.contacts-list {
+    display: flex; 
 }
-.contacts-item{
+.contacts-item {
  margin-right: 40px;
 }
 .contacts-item:last-child{
