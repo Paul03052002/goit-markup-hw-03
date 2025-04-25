@@ -38,12 +38,11 @@ margin-right: 24px;
 }
 .links-address{
     display: flex;
-     gap: 40px;
+     gap: 40px;    
+     margin-right: 40px;
 }
-.link-ad{
-    margin-right: 40px;
-}
-.link-ad:last-child{
+
+.links-address:last-child{
     margin-right: 0;
 }
 .link{
