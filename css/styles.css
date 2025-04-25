@@ -25,8 +25,10 @@ body {
 .header-links{
 margin-right: 24px;  
 }
-.header-links:first-child{
-width:calc((100% - 72px) / 4);
+.header-cotainer{
+    display: flex;
+     margin: 0 auto;
+     width: 1158px;
 }
 .links{
     display: flex;
@@ -35,7 +37,7 @@ width:calc((100% - 72px) / 4);
 }
 .links-address{
     display: flex;
-    gap: 40px;
+        gap: 40px;
 }
 .link{
     margin: 10px;
@@ -78,6 +80,7 @@ padding-bottom: 24px;
         color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em; 
+
 }
 
 .address:hover{
@@ -107,7 +110,6 @@ padding-bottom: 24px;
     
 }
 .first-list-photos:first-child{
-    width: calc(100% - 3 * 24px);
     border-radius: 0px 0px 4px 4px;
 }
 .name-job{
