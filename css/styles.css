@@ -12,7 +12,7 @@ body {
 .container{
     padding-left: 15px;
     padding-right: 15px;
-    margin: auto;
+    margin: 0 auto;
     width: 1158px;
 }
 .nav{
@@ -36,8 +36,7 @@ margin-right: 24px;
 }
 .link{
     margin: 10px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 .logo{
     font-family: "Raleway",sans-serif;
@@ -60,6 +59,8 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding-top: 24px;
+padding-bottom: 24px;
 } 
 .the-first-link:hover{
     color: #404bbf;
