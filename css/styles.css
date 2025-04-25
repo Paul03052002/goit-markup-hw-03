@@ -174,9 +174,10 @@ img {
 }
 
 .section-two {
-    padding-top: 120px;
+
+        background-color: #E7E9FC;   
+         padding-top: 120px;
         padding-bottom: 120px;
-        background-color: #E7E9FC;
         padding-left: 50px;
         padding-right: 50px;
         width: 1158px;
