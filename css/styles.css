@@ -200,7 +200,8 @@ ul {
 .footer{
     background-color: #2E2F42;
     margin-top: 120px;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     justify-content: flex-start;
     width: 1158px;
 }
@@ -214,6 +215,8 @@ ul {
     color: #4d5ae5;
     margin-left: 100px;
     margin-right: 1170px;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 .low-studio{
     color: #f4f4fd
@@ -225,7 +228,7 @@ ul {
      margin-left: 100px;
     margin-right: 1170px;
     width: 270px;
-        
+    max-width: 264px;
 }
 
 
