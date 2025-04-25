@@ -39,10 +39,12 @@ margin-right: 24px;
 .links-address{
     display: flex;
      gap: 40px;    
-     margin-right: 40px;
+     
 }
-
-.links-address:last-child{
+.contact-item{
+ margin-right: 40px;
+}
+.contact-item:last-child{
     margin-right: 0;
 }
 .link{
