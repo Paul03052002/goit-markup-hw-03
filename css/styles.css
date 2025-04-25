@@ -27,9 +27,6 @@ body {
     display: flex;
     
 }
-.header-links{
-margin-right: 24px;  
-}
 
 .links{
     display: flex;
@@ -37,9 +34,7 @@ margin-right: 24px;
     gap: 40px;
 }
 .contacts-list{
-    display: flex;
-   
-     
+    display: flex;   
 }
 .contacts-item{
  margin-right: 40px;
@@ -172,12 +167,18 @@ img {
     max-width: 100%;
 }
 .section{
-padding-top: 120px;
-padding-bottom: 120px;
+padding: 120px 0;
 background-color: #E7E9FC;
 padding-left: 50px;
 padding-right: 50px;
 width: 1158px;
+}
+.header-links{
+margin-right: 24px; 
+width: calc((100% - 72px) / 4);
+}
+.header-links:last-child {
+    margin-right: 0;
 }
 .table-title{
     background-color: #FFFFFF;
