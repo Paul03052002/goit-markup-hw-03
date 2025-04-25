@@ -38,7 +38,13 @@ margin-right: 24px;
 }
 .links-address{
     display: flex;
-        gap: 40px;
+     gap: 40px;
+}
+.links-address li{
+    margin-right: 40px;
+}
+.links-address li:last-child{
+    margin-right: 0;
 }
 .link{
     margin: 10px;
@@ -165,9 +171,9 @@ img {
     max-width: 100%;
 }
 .section{
-background-color: #E7E9FC;
 padding-top: 120px;
 padding-bottom: 120px;
+background-color: #E7E9FC;
 padding-left: 50px;
 padding-right: 50px;
 width: 1158px;
