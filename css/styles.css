@@ -25,6 +25,9 @@ body {
 .header-links{
 margin-right: 24px;  
 }
+.header-links:first-child{
+width:calc((100% - 72px) / 4);
+}
 .links{
     display: flex;
     justify-content: flex-start;
@@ -85,9 +88,19 @@ padding-bottom: 24px;
 }
 .visually-hidden{
     display: none;
+        background-color: #FFFFFF;
+            color: #2e2f42;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            margin-bottom: 72px;
 }
 .char{
     display: flex;
+    gap: 24px;
 }
 .first-list-photos{
     margin: 2px;
