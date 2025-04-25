@@ -12,14 +12,15 @@ body {
 .container{
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
-  width: 1158px;
+    margin: auto;
+    width: 1158px;
 }
 .nav{
         
     align-items: center;
     justify-content: space-between;
     display: flex;
+    
 }
 .header-links{
 margin-right: 24px;  
@@ -27,10 +28,16 @@ margin-right: 24px;
 .links{
     display: flex;
     justify-content: flex-start;
+    gap: 40px;
 }
-
+.links-address{
+    display: flex;
+    gap: 40px;
+}
 .link{
     margin: 10px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .logo{
     font-family: "Raleway",sans-serif;
@@ -41,6 +48,8 @@ margin-right: 24px;
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .webstudio{
     color: #2e2f42;
