@@ -109,6 +109,8 @@ letter-spacing: 0.02em;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    max-width: 496px;
+    padding-left: 300px;
 }
 .btn{
 font-family: "Roboto", sans-serif;
@@ -125,7 +127,11 @@ font-family: "Roboto", sans-serif;
     padding-left: 32px;
     border-radius: 4px;
     width: auto;
-    margin-left: 400px;
+    margin-left: 460px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }  
 .btn:hover{
     background-color:#404BBF;
