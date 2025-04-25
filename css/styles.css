@@ -93,7 +93,6 @@ padding-bottom: 24px;
     color: #404bbf;
 }
 .visually-hidden {
-    position: absolute !important;
         height: 1px;
         width: 1px;
         overflow: hidden;
@@ -116,7 +115,6 @@ padding-bottom: 24px;
     padding-bottom: 32px;
 }
 .second-list-photos{
-    margin: 2px;
     border-bottom: 1px solid #E7E9FC;
     width: calc((100% - 48px) / 3);   
 }
