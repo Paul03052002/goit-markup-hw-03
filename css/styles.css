@@ -33,7 +33,7 @@ body {
     justify-content: flex-start;
     gap: 40px;
 }
-.contacts-list {
+.contact-list {
     display: flex; 
     gap: 40px;
 }
