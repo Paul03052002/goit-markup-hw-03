@@ -35,10 +35,10 @@ body {
 }
 .contacts-list {
     display: flex; 
+    gap: 40px;
+    margin-right: 40px;
 }
-.contacts-item {
- margin-right: 40px;
-}
+
 .contacts-item:last-child{
     margin-right: 0;
 }
