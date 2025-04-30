@@ -188,7 +188,7 @@ width: 1158px;
     row-gap: 48px;
     
 }
-.sec-phs{
+.section-photos{
     width: calc((100% - 48px) / 3);
 }
   
