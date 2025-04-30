@@ -143,8 +143,7 @@ font-family: "Roboto", sans-serif;
         padding-bottom: 120px;
         width: 1158px;
 }
-.sec-section-items { 
- flex-basis: calc((100% - 72px) / 4);
+.sec-section-items {
  width: calc((100% - 72px) / 4);
 }
 .sec-section-items:last-child {
