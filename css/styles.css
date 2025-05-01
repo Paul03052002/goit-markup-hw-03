@@ -188,9 +188,7 @@ width: 1158px;
     row-gap: 48px;
     
 }
-.the-second-photos li{
-    width: calc((100% - 48px) / 3);
-}
+
 .projects{
     width: calc((100% - 48px) / 3);
 }
