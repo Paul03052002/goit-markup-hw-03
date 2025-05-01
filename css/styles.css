@@ -188,7 +188,7 @@ width: 1158px;
     row-gap: 48px;
     
 }
-.section-photos{
+.projects{
     width: calc((100% - 48px) / 3);
 }
   
@@ -241,8 +241,6 @@ a{
     gap: 24px;
 }
 
-
-
 img {
      display: block;
     max-width: 100%;
@@ -251,7 +249,6 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
 }
-
 
 .footer{
     background-color: #2E2F42;
