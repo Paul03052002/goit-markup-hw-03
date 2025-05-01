@@ -189,7 +189,7 @@ width: 1158px;
     
 }
 
-.projects{
+.project-card{
     width: calc((100% - 48px) / 3);
 }
   
